@@ -1,0 +1,46 @@
+.statistics{
+margin-top: 20px;
+margin-bottom: 100px;
+}
+.stat-list{
+    display: flex;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 100%;
+}
+.itemStat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px black;
+    width: 25%;
+    padding: 20px 5px ;
+    
+}
+.title{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+.label{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.percentage{
+    font-size: 30px;
+}
+  
+.itemStat:first-child {
+    border-bottom-left-radius: 5px;
+    box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.25);
+  }
+  
+  .itemStat:last-child {
+    border-bottom-right-radius: 5px;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.25);
+  }
