@@ -20,7 +20,6 @@ export const App = () => {
         color: '#010101'
       }}
     >
-       {/* Відображення компонента Profile з відповідними пропсами */}
        <Profile
         username={user.username}
         tag={user.tag}
@@ -28,14 +27,10 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
-
-      {/* Відображення компонента FriendList з відповідними пропсами */}
       <FriendList friends={friendsData} />
       
-      {/* Відображення компонента Statistics з відповідними пропсами */}
       <Statistics title="Upload stats" stats={statisticsData} />
 
-      {/* Відображення компонента TransactionHistory з відповідними пропсами */}
       <TransactionHistory items={transactionsData} />
     </div>
   );
